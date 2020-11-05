@@ -1,32 +1,81 @@
-# Change log
+## [3.1.4-rc.0](https://github.i.agoralab.co/AgoraIO/Flutter-SDK/compare/3.1.3...v3.1.4-rc.0) (2020-10-23)
+
+
+### Bug Fixes
+
+* `getUserInfoByUid` `getUserInfoByUserAccount` type cast error, resolve [#204](https://github.i.agoralab.co/AgoraIO/Flutter-SDK/issues/204) ([cb75715](https://github.i.agoralab.co/AgoraIO/Flutter-SDK/commit/cb757152f81717fb640771e38e489fb0a268b2d6))
+* events.dart `joinChannelSuccess` `rejoinChannelSuccess` bug ([b25771f](https://github.i.agoralab.co/AgoraIO/Flutter-SDK/commit/b25771f73be3dd8a4ac2cfbce435f78e824ba0e6))
+* rtc_engine `destroy` bug ([263ad09](https://github.i.agoralab.co/AgoraIO/Flutter-SDK/commit/263ad09c0b20073eb10c4d8cdd2c5a1e7ad87fd4))
+
+
+### Features
+
+* add API example ([1b01711](https://github.i.agoralab.co/AgoraIO/Flutter-SDK/commit/1b01711ccdac0ea182afd71735e791af5a008bae))
+* Android add getNativeHandle ([0eab471](https://github.i.agoralab.co/AgoraIO/Flutter-SDK/commit/0eab47114cde933482f90879e177fd019430cafd))
+* iOS add getNativeHandle ([1a4833e](https://github.i.agoralab.co/AgoraIO/Flutter-SDK/commit/1a4833eadd97d48149bcac04549bc7debbaf5e36))
+
+## 3.1.3
+* fix `setDefaultAudioRoutetoSpeakerphone` crash bug
+* add `setAudioSessionOperationRestriction` and `sendCustomReportMessage` method
+
+## 3.1.2
+* upgrade Agora SDK to 3.1.2
+
+## 3.0.1-dev.7
+* fix android `VideoSizeChanged` bug
+
+## 3.0.1-dev.6
+* fix iOS `FirstLocalVideoFrame` `VideoSizeChanged` `FirstRemoteVideoFrame` `FirstRemoteVideoDecoded` bug
+
+## 3.0.1-dev.5
+* fix multiple channel render bug
+* fix android release bug
+
+## 3.0.1-dev.4
+* fix `startPreview` `stopPreview` bug
+
+## 3.0.1-dev.3
+* fix `toJson` bug 
+* add `startPreview` `stopPreview`
+
+## 3.0.1-dev.2
+* remove `AudioSampleRateType.Type16000`
+* fix Android `mapToChannelMediaInfo` crash
+
+## 3.0.1-dev.1
+* upgrade Agora SDK to 3.0.1
+* support TextureView on Android
+
+## 1.0.13
+* fix `getUserInfoByUid` bug
 
 ## 1.0.12
-* fix AgoraLiveTranscodingUser.alpha type bug
+* fix `AgoraLiveTranscodingUser.alpha` type bug
 
 ## 1.0.11
-* fix Android bugs of setLiveTranscoding and addInjectStreamUrl
-* support custom key when init AgoraRenderWidget
+* fix Android bugs of `setLiveTranscoding` and `addInjectStreamUrl`
+* support custom key when init `AgoraRenderWidget`
 
 ## 1.0.10
-* fix iOS encryption bug
+* fix iOS `encryption` bug
 
 ## 1.0.9
-* fix android onUserInfoUpdated bug
+* fix android `onUserInfoUpdated` bug
 
 ## 1.0.8
-* fix onVideoSizeChanged bug
+* fix `onVideoSizeChanged` bug
 
 ## 1.0.7
-* fix iOS setLiveTranscoding crash
+* fix iOS `setLiveTranscoding` crash
 
 ## 1.0.6
-* upgrade Agora SDK to 2.9.4, not use IMEI now
+* upgrade Agora SDK to 2.9.4, not use `IMEI` now
 
 ## 1.0.5
 * fix iOS memory leak
 
 ## 1.0.4
-* AgoraRenderWidget use key now
+* `AgoraRenderWidget` use key now
 
 ## 1.0.3
 * add log functions
